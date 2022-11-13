@@ -60,7 +60,7 @@ font-family: 'Poppins', sans-serif;
     color: #F55D3A ;
   }
   nav ul{
-    margin-left: 75rem;
+    margin-left: 48rem;
     display: inline;
   }
   nav ul li{
@@ -85,8 +85,7 @@ font-family: 'Poppins', sans-serif;
    width: 25rem;
    height: 25rem;
    float: right;
-   margin-right: 10rem;
-   margin-top: 1rem;
+   margin-top: 0.5rem;
   }
   main section .h1{
    color: #F55D3A ;
@@ -119,7 +118,7 @@ font-family: 'Poppins', sans-serif;
   section .paramdam{
     float: left;
     margin-top: 1rem;
-    margin-left: 25rem;
+    margin-left: 15rem;
     margin-right: 9rem;
     background-color: #F55D3A;
     padding: 6px 0px 0px 6px;
@@ -127,8 +126,8 @@ font-family: 'Poppins', sans-serif;
   section .senyales{
     float: right;
     margin-top: 1rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 20rem;
+    margin-right: 1rem;
     background-color: #3D2892;
     padding: 6px 6px 0px 0px;
   }
@@ -144,7 +143,7 @@ font-family: 'Poppins', sans-serif;
     color: #4A4A4A  ;
   }
   .sen1{
-    padding-left: 23rem;
+    padding-left: 10rem;
   }
   .read{
     margin-top: 20px;
@@ -156,6 +155,8 @@ font-family: 'Poppins', sans-serif;
   }
   .read1{
     color: #F55D3A ;
+    float: right;
+    padding-right: 25rem;
   }
   .authors>div{
     display: grid;
