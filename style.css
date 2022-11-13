@@ -1,0 +1,234 @@
+/* Fonts 
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+:root {
+    --spacer: 3rem;
+    --box-shadow: 0.3rem 0.3rem 1.5rem rgb(0, 0, 0, 0.15);
+  }
+  
+  /* Reset */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    line-height: 1.5;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p,
+  figure {
+    margin: 0;
+    padding: 0;
+    color: #3D2892;
+  }
+  
+  /* Utilities */
+  ul[class],
+  ol[class] {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flow-content > * + * {
+    margin-top: var(--flow-spacer, var(--spacer));
+  }
+  /* Start Here */
+  body{
+    margin: 0px 20rem;
+    font-family:'poppins';
+  }
+  header{
+    margin-top: 2rem;
+    display: flex;
+  }
+  nav span{
+    font-size: 2.6rem;
+  }
+  nav .p1{
+    color: #3D2892 ;
+  }
+  nav .p2{
+    color: #F55D3A ;
+  }
+  nav ul{
+    margin-left: 75rem;
+    display: inline;
+  }
+  nav ul li{
+    display: inline;
+    margin-left: 15px;
+    font-size: 1.6rem;
+    color: #3D2892 ;
+  }
+  nav a{
+    display: inline;
+    margin-left: 15px;
+    font-size: 1.6rem;
+    color: #3D2892 ;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  main section .tales{
+    margin-bottom: 15rem;
+    margin-top: 5rem;
+  }
+ .img1{
+   width: 25rem;
+   height: 25rem;
+   float: right;
+   margin-right: 10rem;
+   margin-top: 1rem;
+  }
+  main section .h1{
+   color: #F55D3A ;
+   font-size: 6.4rem;
+   text-transform: uppercase;
+  }
+  main section .h2{
+    color: #4A4A4A  ;
+    font-size: 3.2rem;
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+  main section .link1{
+    margin-top: 45rem;
+    background: #3D2892;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #4A4A4A;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+  section .p2{
+    text-align: center;
+    color:#3D2892;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 8rem;
+  }
+  section .paramdam{
+    float: left;
+    margin-top: 1rem;
+    margin-left: 25rem;
+    margin-right: 9rem;
+    background-color: #F55D3A;
+    padding: 6px 0px 0px 6px;
+  }
+  section .senyales{
+    float: right;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: #3D2892;
+    padding: 6px 6px 0px 0px;
+  }
+ .paramdam1{
+    color:#3D2892;
+    font-size: 1.7rem;
+    font-weight: bolder;
+  }
+  .p3{
+    margin-top: 10px;
+    text-align: justify;
+    font-size:1.8rem;
+    color: #4A4A4A  ;
+  }
+  .sen1{
+    padding-left: 23rem;
+  }
+  .read{
+    margin-top: 20px;
+    margin-bottom: 15rem;
+    font-size: 1.8rem;
+    color: #F55D3A ;
+    font-weight: bolder;
+
+  }
+  .read1{
+    color: #F55D3A ;
+  }
+  .authors>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .authors figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    padding: 15px;
+  }
+  .authors figure img {
+    width: 200px;
+    height: 200px;
+  }
+  h3{
+    margin-top: 5px;
+    color: #F55D3A ;
+    font-size: 20px;
+  }
+  p{
+    color: #4A4A4A  ;
+    font-size: 1.8rem;
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+  footer{
+    background: url(images/Vector.png);
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    text-align: center;
+    max-width: 100%;
+  }
+  footer>div {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+footer>div>div {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+footer>div>h1 {
+  color: #F55D3A;
+  float: left;
+  font-size: 6.4rem;
+}
+.email-catcher {
+    display: flex;
+    align-items: center;
+}
+.email-catcher input[type=text] {
+    width: 350px;
+    height: 43.5px;
+    margin-right: 30px;
+}
+.email-catcher input[type=submit] {
+  color: white;
+}
+footer>div>.submit {
+  background: #3D2892;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
